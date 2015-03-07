@@ -1,5 +1,7 @@
 # CustomWords
 
+[![Gem Version](https://badge.fury.io/rb/custom_words.svg)](http://badge.fury.io/rb/custom_words)
+
 It allows the user to add custom words to its app.
 
 ## Installation
@@ -34,7 +36,7 @@ Use this word in your view with:
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/custom_words/fork )
+1. Fork it ( https://github.com/appprova/custom_words/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
