@@ -12,11 +12,7 @@ gem 'custom_words'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install custom_words
+    $ bundle install
 
 After that, initialize your custom_words.yml file with:
 
@@ -26,7 +22,9 @@ After that, initialize your custom_words.yml file with:
 
 Add a custom word in `config/custom_words.yml` as:
 
-    test_word: "Test word"
+```yaml
+test_word: "Test word"
+```
 
 Use this word in your view with:
 
