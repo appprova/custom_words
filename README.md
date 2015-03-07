@@ -1,6 +1,6 @@
 # CustomWords
 
-TODO: Write a gem description
+It allows the user to add custom words to its app.
 
 ## Installation
 
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+custom :my_word
+```
 
 ## Contributing
 

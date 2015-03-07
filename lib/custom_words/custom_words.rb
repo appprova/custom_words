@@ -1,14 +1,10 @@
 module CustomWords
 	class CustomWords
 
-		# def flush_cache
-		#   Rails.cache.delete([self.class.name, key, user_id])
-		# end
+		CUSTOM_WORDS = YAML.load_file('config/custom_words.yml')
 
-		def self.fetch_cache_word key, user_id
-			Rails.cache.fetch([name, key, user_id]) do
-				where(key: key.to_s, user_id: user_id).first.word
-			end
+		def self.fetch_word key
+			CUSTOM_WORDS.fetch(key.to_s)
 		end
 
 	end
