@@ -18,10 +18,20 @@ Or install it yourself as:
 
     $ gem install custom_words
 
+After that, initialize your custom_words.yml file with:
+
+    $ rails generate custom_words:install
+
 ## Usage
 
+Add a custom word in `config/custom_words.yml` as:
+
+    test_word: "Test word"
+
+Use this word in your view with:
+
 ```ruby
-custom :my_word
+<%= custom :test_word %>
 ```
 
 ## Contributing
