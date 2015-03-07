@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CustomWords::VERSION
   spec.authors       = ["João Daniel"]
   spec.email         = ["jdanielnd@gmail.com"]
-  spec.summary       = %q{Required.}
-  spec.description   = %q{Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Helps user to set custom_words in yaml files and use them on the view.}
+  spec.homepage      = "https://github.com/appprova/custom_words"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,6 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rails", "~> 3.0"
   spec.add_development_dependency "active_support", "~> 3.0"
 end
