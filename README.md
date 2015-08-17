@@ -1,5 +1,7 @@
 # CustomWords
 
+![Custom Words Logo](https://raw.github.com/appprova/custom_words/master/custom_words.jpg)
+
 [![Gem Version](https://badge.fury.io/rb/custom_words.svg)](http://badge.fury.io/rb/custom_words)
 
 It allows the user to add custom words to its app.
