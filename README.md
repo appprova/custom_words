@@ -28,11 +28,27 @@ Add a custom word in `config/custom_words.yml` as:
 test_word: "Test word"
 ```
 
+Or a nested custom word like:
+
+```yaml
+word_group:
+  word_subgroup:
+    custom_word: 'such a nice feature'
+```
+
 Use this word in your view with:
 
 ```ruby
-<%= custom :test_word %>
+<%= custom :test_word %> or
+<%= custom 'test_word' %>
 ```
+
+With nested custom words:
+
+```ruby
+<%= custom 'word_group.word_subgroup.custom_word' %>
+```
+
 
 ## Contributing
 
